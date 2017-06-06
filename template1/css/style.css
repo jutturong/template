@@ -448,7 +448,7 @@
 
 	.wrapper.style2 {
 		/*background: #ececec;*/
-		background:#B3B3D9;
+		background: #FFDDDD;
 
 		padding: 6em 0;
 		text-align: center;
@@ -477,7 +477,7 @@
 			  /* background: #A4C8F0 url("../images/4.jpeg") no-repeat; */
 			 /*  background: #A4C8F0 url("../images/4.JPG") no-repeat; */
 			 /*  url("../images/4.jpeg")  */
-					  background: #996699    no-repeat;   ;
+					  background: #FFFFFF  no-repeat;   ;
             /*  background:  #4db6ac    no-repeat;  */
 
 		background-size: cover;

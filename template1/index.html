@@ -26,6 +26,186 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <!-- side menu -->
 
+
+
+
+
+  <!-- CSS for slidesjs.com example -->
+  <link rel="stylesheet" href="playing/css/example.css">
+  <link rel="stylesheet" href="playing/css/font-awesome.min.css">
+  <!-- End CSS for slidesjs.com example -->
+  
+    <!-- SlidesJS Optional: If you'd like to use this design -->
+  <style>
+      
+      /*
+    body {
+      -webkit-font-smoothing: antialiased;
+      font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #232525;
+      padding-top:70px;
+    }
+    */
+    
+
+    #slides {
+      display: none
+    }
+
+    #slides .slidesjs-navigation {
+      margin-top:5px;
+    }
+
+    a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+    /*  background-image: url(playing/img/btns-next-prev.png); */
+      background-repeat: no-repeat;
+      display:block;
+      width:12px;
+      height:18px;
+      overflow: hidden;
+      text-indent: -9999px;
+      float: left;
+      margin-right:5px;
+    }
+
+    a.slidesjs-next {
+      margin-right:10px;
+      background-position: -12px 0;
+    }
+
+    a:hover.slidesjs-next {
+      background-position: -12px -18px;
+    }
+
+    
+    a.slidesjs-previous {
+      background-position: 0 0;
+    }
+    
+
+    
+    a:hover.slidesjs-previous {
+      background-position: 0 -18px;
+    }
+
+
+
+    a.slidesjs-play {
+      width:15px;
+      background-position: -25px 0;
+    }
+
+    a:hover.slidesjs-play {
+      background-position: -25px -18px;
+    }
+
+    a.slidesjs-stop {
+      width:18px;
+      background-position: -41px 0;
+    }
+
+    a:hover.slidesjs-stop {
+      background-position: -41px -18px;
+    }
+
+    .slidesjs-pagination {
+      margin: 7px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(playing/img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+  </style>
+  <!-- End SlidesJS Optional-->
+
+  <!-- SlidesJS Required: These styles are required if you'd like a responsive slideshow -->
+  <style>
+    #slides {
+      display: none
+    }
+
+    .container {
+      margin: 0 auto
+    }
+
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+      body {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .container {
+        width: 724px
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px
+      }
+    }
+  </style>
+  <!-- SlidesJS Required: -->
+  
+  
+  
+  
+
 	</head>
 
 
@@ -33,7 +213,13 @@
 
 
 
-	<body class="homepage" >
+	<!-- <body class="homepage" > -->
+            
+                 <body >
+
+  
+  
+  
 
 
 		<div class="w3-sidebar w3-bar-block w3-collapse w3-card-2 w3-animate-right" style="width:200px;right:0;" id="mySidebar">
@@ -251,17 +437,68 @@
 						<div id="banner">
 							<div class="container">
 
-								<section>
+                                                            
+                                                            
+							<section>
 
-
+                                                                                                                                                            <!--
 									<header class="major">
 										<h2>Welcome to Horizons!</h2>
 										<span class="byline">&hellip; a responsive HTML5 site template freebie by <a href="http://templated.co">TEMPLATED</a>. Released for free under the <a href="http://templated.co/license">Creative Commons Attribution</a> license, so use it for whatever (personal or commercial) &ndash; just give us credit!</span>
 									</header>
+                                                                                                                                                              -->
+                                                                                                                                                              
+                                                                                                                                                                <!--  Slide show banner -->  
+                                                                                                                                                                
+                                                                                                                                                                
+<!-- SlidesJS Required: Start Slides -->
+  <!-- The container is used to define the width of the slideshow -->
+  <div class="container">
+    <div id="slides">
+        
+      <img src="playing/img/Excellence.png" alt="มูลนิธิตะวันฉาย เพื่อผู้ป่วยปากแหว่ง เพดานโหว่ฯ">
+      <img src="playing/img/DSC_6585.JPG" alt="มูลนิธิตะวันฉาย เพื่อผู้ป่วยปากแหว่ง เพดานโหว่ฯ">
+      <img src="playing/img/DSC_6602.JPG" alt="มูลนิธิตะวันฉาย เพื่อผู้ป่วยปากแหว่ง เพดานโหว่ฯ">
+      <img src="playing/img/DSC_6688.JPG" alt="มูลนิธิตะวันฉาย เพื่อผู้ป่วยปากแหว่ง เพดานโหว่ฯ">
+      <img src="playing/img/DSC_6692.JPG" alt="มูลนิธิตะวันฉาย เพื่อผู้ป่วยปากแหว่ง เพดานโหว่ฯ">
+       <img src="playing/img/DSC_6716.JPG" alt="มูลนิธิตะวันฉาย เพื่อผู้ป่วยปากแหว่ง เพดานโหว่ฯ">
+      
+    </div>
+  </div>
+  <!-- End SlidesJS Required: Start Slides -->
 
+  <!-- SlidesJS Required: Link to jQuery -->
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <!-- End SlidesJS Required -->
 
-									<a href="#" class="button alt">Sign Up</a>
-								</section>
+  <!-- SlidesJS Required: Link to jquery.slides.js -->
+  <script src="playing/js/jquery.slides.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+  
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 940,
+        height: 528,
+        play: {
+          active: true,
+          auto: true,
+          interval: 4000,
+          swap: true
+        }
+      });
+    });
+  </script>
+  
+<!-- End SlidesJS Required -->
+ <!--  Slide show banner -->  
+ 
+ 
+
+									<!--<a href="#" class="button alt">Sign Up</a>-->
+							  </section>
 
 
 							</div>
