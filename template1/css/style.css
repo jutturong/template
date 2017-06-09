@@ -448,7 +448,7 @@
 
 	.wrapper.style2 {
 		/*background: #ececec;*/
-		background: #FFDDDD;
+		background: #ffffff;
 
 		padding: 6em 0;
 		text-align: center;
@@ -477,9 +477,9 @@
 			  /* background: #A4C8F0 url("../images/4.jpeg") no-repeat; */
 			 /*  background: #A4C8F0 url("../images/4.JPG") no-repeat; */
 			 /*  url("../images/4.jpeg")  */
-					  background: #FFFFFF  no-repeat;   ;
-            /*  background:  #4db6ac    no-repeat;  */
-
+					/*  background: #D0B3E1 no-repeat;   ; */
+                 
+                                   background: #ffffff    no-repeat;
 		background-size: cover;
 		color: #fff;
                                  /*   color: #FCE4EC; */
@@ -640,7 +640,8 @@
 
 	#footer {
 		padding: 4em 0;
-		color: #fff;
+		 color: #fff; 
+                                  
 	}
 
 		#footer .major h2 {
