@@ -286,8 +286,37 @@ body {
   
   
   
+<!--  folder  css-->
+                                   <script src="Folder/js/anime.min.js"></script>
+		<script src="Folder/js/charming.min.js"></script>
+		<script src="Folder/js/main.js"></script>
+                                    <link rel="shortcut icon" href="Folder/favicon.ico">
+  		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,700" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="Folder/css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="Folder/css/demo.css" />
+		<script>
+			document.documentElement.className = 'js';
+			var supportsCssVars = function() {
+				var s = document.createElement('style'),
+				support;
+
+				s.innerHTML = "root: { --tmp-var: bold; }";
+				document.head.appendChild(s);
+				support = !!(window.CSS && window.CSS.supports && window.CSS.supports('font-weight', 'var(--tmp-var)'));
+				s.parentNode.removeChild(s);
+				return support;
+			}
+			if (!supportsCssVars()) alert('Please view this demo in a modern browser that supports CSS Variables.')
+		</script>
+                
+                
+                
+         
 
 
+
+  <!--  folder  css-->
+  
   
 
 	</head>
@@ -297,7 +326,10 @@ body {
                  <body >
                      
     
-                     
+     
+   <!--  folder css -->
+   
+   <!-- folder css -->
              
                      
                   
@@ -634,6 +666,89 @@ Check out more of my work at: http://dribbble.com/RyanBishop
 					<header class="major">
 
 						<!--<h2>Nulla luctus eleifend</h2>-->
+                                                
+                                                
+                                                <div class="folder__icon-img folder__icon-img--cover">
+									<svg class="folder__icon-svg"><use xlink:href="#icon-foldercover"></use></svg>
+									<svg class="folder__icon-svg folder__icon-svg--deco"><use xlink:href="#icon-users"></use></svg>
+		             </div>
+                                                
+                                                
+                                                
+                                                <!--  แทรก folder --->
+                                               <main>
+			<div class="message-mobile">These are hover effects. Best viewed on desktop.</div>
+			
+			
+			<section class="content content--rudras">
+				<div class="grid">
+					<div class="grid__item"><div class="dummy"><svg><use xlink:href="#icon-folderdummy"></use></svg></div></div>
+					<div class="grid__item"><div class="dummy"><svg><use xlink:href="#icon-folderdummy"></use></svg></div></div>
+					<div class="grid__item"><div class="dummy"><svg><use xlink:href="#icon-folderdummy"></use></svg></div></div>
+					<div class="grid__item"><div class="dummy"><svg><use xlink:href="#icon-folderdummy"></use></svg></div></div>
+					<div class="grid__item"><div class="dummy"><svg><use xlink:href="#icon-folderdummy"></use></svg></div></div>
+					<div class="grid__item"><div class="dummy"><svg><use xlink:href="#icon-folderdummy"></use></svg></div></div>
+					<div class="grid__item"><div class="dummy"><svg><use xlink:href="#icon-folderdummy"></use></svg></div></div>
+					<div class="grid__item">
+						<div class="folder folder--rudras">
+							<div class="folder__icon folder__icon--perspective">
+								<div class="folder__icon-img folder__icon-img--back">
+									<svg class="folder__icon-svg"><use xlink:href="#icon-folderback"></use></svg>
+								</div>
+								<div class="folder__icon-deco"></div>
+								<div class="folder__preview folder__preview--thumbs">
+									<img class="folder__thumb" src="Folder/img/user1.svg" />
+									<img class="folder__thumb" src="Folder/img/user2.svg" />
+									<img class="folder__thumb" src="Folder/img/user3.svg" />
+									<img class="folder__thumb" src="Folder/img/user4.svg" />
+									<img class="folder__thumb" src="Folder/img/user5.svg" />
+									<img class="folder__thumb" src="Folder/img/user6.svg" />
+									<img class="folder__thumb" src="Folder/img/user7.svg" />
+									<img class="folder__thumb" src="Folder/img/user8.svg" />
+								</div>
+								<div class="folder__icon-img folder__icon-img--cover">
+									<svg class="folder__icon-svg"><use xlink:href="#icon-foldercover"></use></svg>
+									<svg class="folder__icon-svg folder__icon-svg--deco"><use xlink:href="#icon-users"></use></svg>
+								</div>
+							</div>
+							<h3 class="folder__caption">Rudras</h3>
+						</div>
+					</div>
+					<div class="grid__item"><div class="dummy"><svg><use xlink:href="#icon-folderdummy"></use></svg></div></div>
+					<div class="grid__item"><div class="dummy"><svg><use xlink:href="#icon-folderdummy"></use></svg></div></div>
+					<div class="grid__item"><div class="dummy"><svg><use xlink:href="#icon-folderdummy"></use></svg></div></div>
+					<div class="grid__item"><div class="dummy"><svg><use xlink:href="#icon-folderdummy"></use></svg></div></div>
+					<div class="grid__item"><div class="dummy"><svg><use xlink:href="#icon-folderdummy"></use></svg></div></div>
+					<div class="grid__item"><div class="dummy"><svg><use xlink:href="#icon-folderdummy"></use></svg></div></div>
+					<div class="grid__item"><div class="dummy"><svg><use xlink:href="#icon-folderdummy"></use></svg></div></div>
+				</div><!-- /grid-->
+			</section>
+			
+			
+			
+			
+			
+			
+			
+			
+		</main>
+		
+		<script>
+		(function() {
+			new DeviFx(document.querySelector('.content--devi .folder--devi'));
+			new RudrasFx(document.querySelector('.content--rudras .folder--rudras'));
+			new ArdraFx(document.querySelector('.content--ardra .folder--ardra'));
+			new ShaktiFx(document.querySelector('.content--shakti .folder--shakti'));
+			new KuberaFx(document.querySelector('.content--kubera .folder--kubera'));
+			new HariFx(document.querySelector('.content--hari .folder--hari'));
+			new RaviFx(document.querySelector('.content--ravi .folder--ravi'));
+			new DurgaFx(document.querySelector('.content--durga .folder--durga'));
+			new NandiFx(document.querySelector('.content--nandi .folder--nandi'));
+		})();
+		</script>
+                                                
+                                                
+                                                <!--  แทรก folder --->
 
                                                 <span class="byline">   <h9><b>  ข่าวศูนย์การดูแลฯ  </b></h9>     </span>
 

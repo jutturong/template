@@ -475,11 +475,11 @@
 	#header {
 		   /* background: #333333 url("../images/pic01.jpg") no-repeat;  */
 			  /* background: #A4C8F0 url("../images/4.jpeg") no-repeat; */
-			 /*  background: #A4C8F0 url("../images/4.JPG") no-repeat; */
+			  background: #3399CC    no-repeat; 
 			 /*  url("../images/4.jpeg")  */
 					/*  background: #D0B3E1 no-repeat;   ; */
                  
-                                   background: #ffffff    no-repeat;
+                                  /* background: #ffffff    no-repeat;*/
 		background-size: cover;
 		color: #fff;
                                  /*   color: #FCE4EC; */
