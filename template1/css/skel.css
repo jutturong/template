@@ -14,7 +14,10 @@
 
 	body {
 		/* min-width: (containers) */
-		min-width: 1200px;
+		/*  min-width: 1200px; */
+                                /*   min-width: 500px;*/
+                                   min-width: 100px;
+                                
 	}
 
 	.container {
@@ -22,7 +25,8 @@
 		margin-right: auto;
 		
 		/* width: (containers) */
-		width: 1200px;
+		/*width: 1200px;*/
+                                    
 	}
 
 	/* Modifiers */
@@ -30,6 +34,7 @@
 		.container.small {
 			/* width: (containers) * 0.75; */
 			width: 900px;
+                                                     
 		}
 
 		.container.big {
