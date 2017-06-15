@@ -448,7 +448,8 @@
 
 	.wrapper.style2 {
 		/*background: #ececec;*/
-		background: #ffffff;
+		background: #BE7468;
+                
 
 		padding: 6em 0;
 		text-align: center;
@@ -475,7 +476,7 @@
 	#header {
 		   /* background: #333333 url("../images/pic01.jpg") no-repeat;  */
 			  /* background: #A4C8F0 url("../images/4.jpeg") no-repeat; */
-			  background: #3399CC    no-repeat; 
+			  background: #4B7D74    no-repeat; 
 			 /*  url("../images/4.jpeg")  */
 					/*  background: #D0B3E1 no-repeat;   ; */
                  
