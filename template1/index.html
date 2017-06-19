@@ -332,6 +332,14 @@ body {
   
   
   <!--  ##########################     END  header  ######################  -->
+  
+  
+  
+  <!--   ### footer banner slide show### -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!--   ### footer banner slide show### -->
+  
+  
 
 	</head>
 
@@ -1029,7 +1037,7 @@ Check out more of my work at: http://dribbble.com/RyanBishop
 						<!--<h2>Nulla luctus eleifend</h2>-->
 
 						<!--<span class="byline">Mauris vulputate dolor sit amet nibh</span>-->
-                                                <span class="byline"> <h9>  <b> หน้งสือออนไลน์ </b> </h9>    </span>
+                                                                                                         <!--  <span class="byline"> <h9>  <b> หน้งสือออนไลน์ </b> </h9>    </span> -->
 
 					</header>
 					<div class="row">
@@ -1068,14 +1076,71 @@ Check out more of my work at: http://dribbble.com/RyanBishop
 									</ul>
 								</section>
 							</div>
+                                                
+                                                
+                                                                                                                            <div class="6u">
+                                                                                                                                
+                                                                                                                                        <div class="w3-content w3-display-container">
+
+
+                                                                                                                                            <!--
+                                                                                                                                            <img class="mySlides" src="images/Cleftthai.png" style="width:100%">
+                                                                                                                                               <img class="mySlides" src="images/kkucleft-kku6.png" style="width:100%">
+                                                                                                                                        <img class="mySlides" src="images/nu.png" style="width:100%">
+
+                                                                                                                                        <img class="mySlides" src="images/medinfo6.png" style="width:100%">
+                                                                                                                                        <img class="mySlides" src="images/cmu_clft3.png" style="width:100%">
+                                                                                                                                        <img class="mySlides" src="images/si-mahidol.png" style="width:100%">
+                                                                                                                                         <img class="mySlides" src="images/nmt6.png" style="width:100%">
+                                                                                                                                           -->
+
+
+                                                                                                                                        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                                                                                                                                        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
+
+                                                                                                                                        <img class="mySlides" src="images/Cleftthai.png" style="width:50%" >  
+                                                                                                                                        <img class="mySlides" src="images/kkucleft-kku6.png"  style="width:50%" >
+                                                                                                                                        
+                                                                                                                                        <img class="mySlides" src="images/nu.png" style="width:50%">
+                                                                                                                                        <img class="mySlides" src="images/medinfo6.png" style="width:50%">
+                                                                                                                                        <img class="mySlides" src="images/cmu_clft3.png" style="width:50%">
+                                                                                                                                        <img class="mySlides" src="images/si-mahidol.png" style="width:50%">
+                                                                                                                                         <img class="mySlides" src="images/nmt6.png" style="width:50%" >
+
+
+                                 
+                                                                                                                                       
+
+
+                                                                                                                                      </div>
+                                                                                                                                
+                                                                                                                                
+                                                                                                                            </div>
                                                                                                          <!-- Content -->
                                                                                                          
                                                                                                          
                                                                                                          
-    <!-- ####################### banner footer ######################-->   
-   
+<!-- ####################### banner footer ######################-->   
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
 
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
 
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
 <!-- ####################### banner footer ######################-->
 
 					</div>
