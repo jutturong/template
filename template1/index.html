@@ -204,6 +204,9 @@
   
   
   
+  
+  
+  <!-- ################# menu ด้านข้าง #################-->
   <style>
       /*  Class  menu  ด้านข้าง   */
       /*///////////////Created by Ryan Bishop.//////////////////// 
@@ -233,6 +236,11 @@ body {
   border-radius:5px;
   box-shadow:  inset 0 0 1px rgba(255,255,255,1);
   box-shadow:  5px 5px 15px 1px rgba(0,0,0,0.1);
+  
+  /*    ###  */
+  /*float: right;*/
+  float: none;
+  
 }
 
 .nav{
@@ -283,7 +291,10 @@ body {
 
 
   </style>
-  
+      <!-- ################# menu ด้านข้าง #################-->
+    
+    
+    
   
   
 <!--  folder  css-->
@@ -417,10 +428,135 @@ $('.multi-item-carousel .item').each(function(){
 	</head>
 
 	<!-- <body class="homepage" > -->
+        
+        
+        <!--  เมนูด้านข้าง -->
+        <!--
+        <style>
+    @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+   
+.body-menu {
+  background-image: url('');
+  background-size : cover;
+}
+
+
+.nav-menu {
+  width : 240px;
+  float : left;
+  -webkit-transition : 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+  -moz-transition : 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+}
+
+
+.input-menu {
+  display: none;
+}
+
+
+
+.label-menu {
+  display     : inline-block;
+  margin-left : auto;
+  width       : 60px;
+  padding     : 18px 0;
+  background-color: rgba(100,100,100,.3);
+  font-size : 30px;
+  color : #fff;
+  text-align : center;
+  cursor : pointer;
+}
+
+
+
+.li-menu {
+  list-style-type : none;
+  border-top    : 1px solid #FFF;
+  border-bottom : 1px solid #ddd;
+  background-color: #f4f5f6;
+  background-size : 200% 100%;
+  background-position : 90% 0px;
+  -webkit-transition : 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+  -moz-transition : 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+}
+
+
+.a-menu {
+  display    : block;
+  padding    : 25px 0;
+  color      : #454545;
+  text-align : center;
+  font-family: 'Source Code Pro', sans-serif;
+  text-decoration: none;
+  -webkit-transition : color .1s;
+  -moz-transition : color .1s;
+}
+
+.a-menu:hover {
+  color : #fff;
+  -webkit-transition : color .1s;
+  -moz-transition : color .1s;
+}
+
+.li-menu:nth-child(1) {
+  border-top : none;
+  background-image : -webkit-linear-gradient(left, #78cdce 0%, #78cdce 50%, #f4f5f6 0%);
+  background-image : -moz-linear-gradient(left, #78cdce 0%, #78cdce 50%, #f4f5f6 0%);
+}
+
+.li-menu:nth-child(2) {
+  background-image : -webkit-linear-gradient(left, #f16767 0%, #f16767 50%, #f4f5f6 0%);
+  background-image : -moz-linear-gradient(left, #f16767 0%, #f16767 50%, #f4f5f6 0%);
+}
+
+.li-menu:nth-child(3) {
+  background-image : -webkit-linear-gradient(left, #f5ee32 0%, #f5ee32 50%, #f4f5f6 0%);
+  background-image : -moz-linear-gradient(left, #f5ee32 0%, #f5ee32 50%, #f4f5f6 0%);
+}
+
+.li-menu:nth-child(4) {
+  background-image : -webkit-linear-gradient(left, #97cc69 0%, #97cc69 50%, #f4f5f6 0%);
+  background-image : -moz-linear-gradient(left, #97cc69 0%, #97cc69 50%, #f4f5f6 0%);
+}
+
+.li-menu:nth-child(5) {
+  background-image : -webkit-linear-gradient(left, #507abd 0%, #507abd 50%, #f4f5f6 0%);
+  background-image : -moz-linear-gradient(left, #507abd 0%, #507abd 50%, #f4f5f6 0%);
+}
+
+.li-menu:nth-child(6) {
+  background-image : -webkit-linear-gradient(left, #6b408e 0%, #6b408e 50%, #f4f5f6 0%);
+  background-image : -moz-linear-gradient(left, #6b408e 0%, #6b408e 50%, #f4f5f6 0%);
+  border-bottom : none;
+}
+
+
+.li-menu:hover {
+  -webkit-transition : 0.3s cubic-bezier(0.175, 0.285, 0.32,1.0) all;
+  -moz-transition : 0.3s cubic-bezier(0.175, 0.285, 0.32,1.0) all;
+  background-position : 0% 0%;
+}
+
+#toggle-menu:checked ~ nav-menu {
+  margin-left:  -240px;
+  -webkit-transition : 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+  -moz-transition : 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+}
+</style>
+-->
+        <!-- เมนูด้านข้าง -->
+        
+        
             
                  <body >
                      
-    
+
+
+
+
+
+
      
    <!--  folder css -->
    <svg class="hidden">
@@ -489,16 +625,11 @@ $('.multi-item-carousel .item').each(function(){
 
   
 <!--   ###########  เมนูด้านข้าง  ############-->
-<div class="w3-sidebar w3-bar-block w3-collapse w3-card-2 w3-animate-right" style="width:200px;right:0;" id="mySidebar">
-                    
-
-        
-
-
 <!-- Google Fonts -->
-<link href='http://fonts.googleapis.com/css?family=Strait' rel='stylesheet' type='text/css'>
 
-<!-- HTML -->
+<div class="w3-sidebar w3-bar-block w3-collapse w3-card-2 w3-animate-right" style="width:200px;right:0;" id="mySidebar">
+
+<link href='http://fonts.googleapis.com/css?family=Strait' rel='stylesheet' type='text/css'>
 
 <div class="menu-container">
       
@@ -508,12 +639,7 @@ $('.multi-item-carousel .item').each(function(){
   
   <div class="menu">
       <ul>
-          <!--
-        <li><a href="" target="_blank"><img src="http://i.imgur.com/4JPrK.png"><p>Search</p></a></li>
-        <li><a href="#" target="_blank"><img src="http://i.imgur.com/jHwHy.png"><p>Upload</p></a></li>
-        <li><a href="#" target="_blank"><img src="http://i.imgur.com/Gyusy.png"><p>Location</p></a></li>
-        <li><a href="#" target="_blank"><img src="http://i.imgur.com/mbWpc.png"><p>Contacts</p></a></li>
-        -->
+      
         <li><a href="mailto:bchowchuen@gmail.com?Subject=สายตรงผู้บริหาร" target="_blank">
                 <img src="png/5857aef7397ffc8c026257ce_icon_4.png" width="40">
                    <p >สายตรงผู้บริหาร</p></a>
@@ -584,19 +710,42 @@ $('.multi-item-carousel .item').each(function(){
         
         
       </ul>
-  </div>
+  </div> 
   
 </div>
-       
-       
-       
 
 </div>
+
 <!--   ###########  เมนูด้านข้าง  ############-->
 
+
+    <!--  สร้างเมนู -->
+    <!--
+ <ul>
+        
+       
+     <li class="active" style="width: 16.6666666666667%">
+            <a href="home.html"
+        target="">Home</a></li>
+       
+
+       <li class="active-menu" style="width: 16.6666666666667%">
+            <a href="home.html"
+        target="">Home</a></li>
+        
+        <li  class="li-menu" style="width: 16.6666666666667%"><a href="2.html" target="">2</a></li>
+
+        <li  class="li-menu" style="width: 16.6666666666667%"><a href="3.html" target="">3</a></li>
+
+        <li   class="li-menu"  style="width: 16.6666666666667%"><a href="4.html" target="">4</a></li>
+
+        <li    class="li-menu"  style="width: 16.6666666666667%"><a href="5.html" target="">5</a></li>
+
+        <li     class="li-menu" style="width: 16.6666666666667%"><a href="6.html" target="">6</a></li>
+    </ul>
+   -->
+<!--  สร้างเมนู --> 
  
-
-
  
 		
 		
@@ -705,7 +854,7 @@ $('.multi-item-carousel .item').each(function(){
   <div class="container">
     <div id="slides">
         
-        <img src="playing/img/fff114.jpeg" alt="มูลนิธิตะวันฉาย เพื่อผู้ป่วยปากแหว่ง เพดานโหว่ฯ">
+        <img src="playing/img/fff114.jpeg"    alt="มูลนิธิตะวันฉาย เพื่อผู้ป่วยปากแหว่ง เพดานโหว่ฯ">
     <!--  <img src="playing/img/Excellence.png" alt="มูลนิธิตะวันฉาย เพื่อผู้ป่วยปากแหว่ง เพดานโหว่ฯ"> -->
      <!--    <img src="playing/img/f1.jpeg" alt="มูลนิธิตะวันฉาย เพื่อผู้ป่วยปากแหว่ง เพดานโหว่ฯ"> -->
      
@@ -745,8 +894,11 @@ $('.multi-item-carousel .item').each(function(){
   <script>
     $(function() {
       $('#slides').slidesjs({
-        width: 940,
+     
+         width: 940,
+        // width: 500,
         height: 528,
+     
         play: {
           active: true,
           auto: true,
@@ -771,6 +923,12 @@ $('.multi-item-carousel .item').each(function(){
 
 				</div>
 			</div>
+                
+                
+                
+            
+
+
 
 		<!-- Featured -->
 			<div class="wrapper style2">

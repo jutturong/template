@@ -33,7 +33,8 @@
 	
 		.container.small {
 			/* width: (containers) * 0.75; */
-			width: 900px;
+			/*  width: 900px; */
+                                                     width: auto;
                                                      
 		}
 
@@ -41,10 +42,12 @@
 			width: 100%;
 
 			/* max-width: (containers) * 1.25; */
-			max-width: 1500px;
+			/*  max-width: 1500px;  */
+                                                      max-width: auto;
 
 			/* min-width: (containers); */
-			min-width: 1200px;
+			/* min-width: 1200px; */
+                                                     min-width: auto;
 		}
 
 /* Grid */
