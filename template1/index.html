@@ -207,15 +207,8 @@
   
   
   <!-- ################# menu ด้านข้าง #################-->
+  <!--
   <style>
-      /*  Class  menu  ด้านข้าง   */
-      /*///////////////Created by Ryan Bishop.//////////////////// 
-Check out more of my work at: http://dribbble.com/RyanBishop 
----------------------------OR-------------------------------
-------------Follow me on twitter: @abletroner---------------
-//////////////////////////////////////////////////////////*/
-
-
 * {
 	margin: 0;
 	padding: 0;
@@ -237,9 +230,7 @@ body {
   box-shadow:  inset 0 0 1px rgba(255,255,255,1);
   box-shadow:  5px 5px 15px 1px rgba(0,0,0,0.1);
   
-  /*    ###  */
-  /*float: right;*/
-  float: none;
+
   
 }
 
@@ -288,9 +279,8 @@ body {
   border-left:3px solid #ed6b3a;
   background-color:rgba(0,0,0,0.02);
 }
-
-
   </style>
+  -->
       <!-- ################# menu ด้านข้าง #################-->
     
     
@@ -385,7 +375,7 @@ $('.multi-item-carousel .item').each(function(){
   <link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css">
   
   
-  
+  <!-- ## ส่วนนี้ห้ามลบเด็ดขาด slide footer bar ##-->
   <style type="text/css">
     html, body {
       margin: 0;
@@ -414,13 +404,28 @@ $('.multi-item-carousel .item').each(function(){
         color: black;
     }
   </style>
-  
-  
+   <!-- ## ส่วนนี้ห้ามลบเด็ดขาด slide footer bar ##-->
+   
+   
+   <!-- ## โค้ดตัวใหม่ -->
+   
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="GoogleNexusWebsiteMenu/GoogleNexusWebsiteMenu/css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="GoogleNexusWebsiteMenu/GoogleNexusWebsiteMenu/css/component.css" />
+		<script src="GoogleNexusWebsiteMenu/GoogleNexusWebsiteMenu/js/modernizr.custom.js"></script>
+   
+
+   
+     <!-- ## โค้ดตัวใหม่ -->
+     
+     
   
   <!--   ### footer banner slide show### -->
   
   
   
+  
+
   
   
   
@@ -548,16 +553,46 @@ $('.multi-item-carousel .item').each(function(){
         <!-- เมนูด้านข้าง -->
         
         
+   <!-- side menu -->
+   <!--
+   <style>
+       #sidebar {
+    background-color: #191919;
+    padding: 10px;
+}
+
+#sidebar a:hover, a:focus {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#sidebar.nav > li > a,
+#sidebar.nav > li > a:link {
+    background-color: #191919;
+    color: #FFF;
+}
+
+#sidebar.nav > li > a:hover,
+#sidebar.nav > li > a:focus {
+    background-color: #373737;
+}
+
+#sidebar.nav-pills > li.active > a,
+#sidebar.nav-pills > li.active > a:hover,
+#sidebar.nav-pills > li.active > a:focus {
+    color: #FFF;
+    background-color: #C72A25;
+}
+
+   </style>
+   -->
+   <!--  side menu -->
             
-                 <body >
-                     
+   
+   
+        
+        <body >
 
-
-
-
-
-
-     
    <!--  folder css -->
    <svg class="hidden">
 			<symbol id="icon-arrow" viewBox="0 0 24 24">
@@ -619,14 +654,16 @@ $('.multi-item-carousel .item').each(function(){
 
 <!-- generate code  facebook   https://www.addthis.com/dashboard#get-the-code/pub/ra-5938d21c7498df9f  -->
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<!-- ## code social facebook -->
+<!--
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5938d21c7498df9f"></script>
-
+-->
+<!-- ## code social facebook -->
 
 
   
 <!--   ###########  เมนูด้านข้าง  ############-->
-<!-- Google Fonts -->
-
+<!--
 <div class="w3-sidebar w3-bar-block w3-collapse w3-card-2 w3-animate-right" style="width:200px;right:0;" id="mySidebar">
 
 <link href='http://fonts.googleapis.com/css?family=Strait' rel='stylesheet' type='text/css'>
@@ -715,45 +752,73 @@ $('.multi-item-carousel .item').each(function(){
 </div>
 
 </div>
+-->
+
+
+<!-- ## เมนูด้านข้างใหม่ ## -->
+<div class="container">
+			<ul id="gn-menu" class="gn-menu-main">
+				<li class="gn-trigger">
+					<a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+					<nav class="gn-menu-wrapper">
+						<div class="gn-scroller">
+							<ul class="gn-menu">
+								<li class="gn-search-item">
+									<input placeholder="Search" type="search" class="gn-search">
+									<a class="gn-icon gn-icon-search"><span>Search</span></a>
+								</li>
+								<li>
+									<a class="gn-icon gn-icon-download">Downloads</a>
+									<ul class="gn-submenu">
+										<li><a class="gn-icon gn-icon-illustrator">Vector Illustrations</a></li>
+										<li><a class="gn-icon gn-icon-photoshop">Photoshop files</a></li>
+									</ul>
+								</li>
+								<li><a class="gn-icon gn-icon-cog">Settings</a></li>
+								<li><a class="gn-icon gn-icon-help">Help</a></li>
+								<li>
+									<a class="gn-icon gn-icon-archive">Archives</a>
+									<ul class="gn-submenu">
+										<li><a class="gn-icon gn-icon-article">Articles</a></li>
+										<li><a class="gn-icon gn-icon-pictures">Images</a></li>
+										<li><a class="gn-icon gn-icon-videos">Videos</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div><!-- /gn-scroller -->
+					</nav>
+				</li>
+				<li><a href="http://tympanus.net/codrops">Codrops</a></li>
+				<li><a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/HeaderEffects/"><span>Previous Demo</span></a></li>
+				<li><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=16030"><span>Back to the Codrops Article</span></a></li>
+			</ul>
+    
+    
+			<header>
+                            
+                            
+				<h1>Google Nexus Website Menu <span>A sidebar menu as seen on the <a href="http://www.google.com/nexus/index.html">Google Nexus 7</a> page</span></h1>
+                                
+                                
+                                
+			</header>
+    
+    
+		</div><!-- /container -->
+		<script src="GoogleNexusWebsiteMenu/GoogleNexusWebsiteMenu/js/classie.js"></script>
+		<script src="GoogleNexusWebsiteMenu/GoogleNexusWebsiteMenu/js/gnmenu.js"></script>
+		<script>
+			new gnMenu( document.getElementById( 'gn-menu' ) );
+		</script>
+  
+    
+<!-- ## เมนูด้านข้างใหม่ ## -->
+
+
+
+
 
 <!--   ###########  เมนูด้านข้าง  ############-->
-
-
-    <!--  สร้างเมนู -->
-    <!--
- <ul>
-        
-       
-     <li class="active" style="width: 16.6666666666667%">
-            <a href="home.html"
-        target="">Home</a></li>
-       
-
-       <li class="active-menu" style="width: 16.6666666666667%">
-            <a href="home.html"
-        target="">Home</a></li>
-        
-        <li  class="li-menu" style="width: 16.6666666666667%"><a href="2.html" target="">2</a></li>
-
-        <li  class="li-menu" style="width: 16.6666666666667%"><a href="3.html" target="">3</a></li>
-
-        <li   class="li-menu"  style="width: 16.6666666666667%"><a href="4.html" target="">4</a></li>
-
-        <li    class="li-menu"  style="width: 16.6666666666667%"><a href="5.html" target="">5</a></li>
-
-        <li     class="li-menu" style="width: 16.6666666666667%"><a href="6.html" target="">6</a></li>
-    </ul>
-   -->
-<!--  สร้างเมนู --> 
- 
- 
-		
-		
-
-
-
-
-
 
 
 		<!-- Header -->
@@ -926,7 +991,7 @@ $('.multi-item-carousel .item').each(function(){
                 
                 
                 
-            
+
 
 
 

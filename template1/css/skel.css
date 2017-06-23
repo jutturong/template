@@ -26,7 +26,12 @@
 		
 		/* width: (containers) */
 		/*width: 1200px;*/
-                                    
+                                    /*overflow: auto;*/
+                                   margin: 0 auto;   
+                                   /*float: left;*/
+                                 /*   margin-left: 200px;*/
+                                 padding: 10px;
+                                 overflow: auto;
 	}
 
 	/* Modifiers */
